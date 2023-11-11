@@ -1,7 +1,7 @@
 import { useState } from "react";
 import InputBox from "./components/InputBox";
 import ListContainer from "./components/ListContainer";
-import "./App.css";
+import "./style.css";
 
 const App = () => {
   const [todos, setTodos] = useState([]);
